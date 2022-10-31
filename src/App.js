@@ -19,8 +19,7 @@ function App() {
           <Route path='/QuienSomos' element={<QuienSomos/>} />
           <Route path='/Productos' element={<Productos/>} />
           <Route path='/Contacto' element={<Contacto/>} />
-          <Route path='/Carrito ' element={<Carrito />} />
-
+          <Route path='/Carrito ' element={<Carrito/>} />
       </Routes>
     </BrowserRouter>
   );
