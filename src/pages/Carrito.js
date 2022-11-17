@@ -8,7 +8,7 @@ export default function DetalleProducto(Product) {
     <>
       {contextState.carrito[0] ? contextState.carrito.map( 
         (Product)=>(<Card id={Product.id} title={Product.title} images={Product.images}/>)
-      ) : "No hay carritos en el"}
+      ) : "No hay objetos en el carrito"}
     </>
   )
 }

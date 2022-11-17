@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import { useParams } from 'react-router-dom';
 import axios, * as others from 'axios';
 import { ActionTypes, useContextState } from "../contextState";
+import { ProductoShape } from "../shapes/ProductShape";
 
 export default function DetalleProducto(Product) {
   const {id} = useParams()
@@ -66,4 +67,8 @@ export default function DetalleProducto(Product) {
       </>
     )
   }
+}
+
+DetalleProducto.propTypes = {
+  query: ProductoShape.isRequired
 }
