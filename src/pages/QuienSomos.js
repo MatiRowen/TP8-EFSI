@@ -4,7 +4,7 @@ export default function QuienSomos() {
   return (
     <div>
         <center>
-        <p>QuienSomos</p>
+        <p>Somos un empresas dispuestas a brindar nuestros servicio siempre que lo requiera! </p>
         </center>
     </div>
   )
